@@ -104,7 +104,7 @@ xPage title
 
 -------------------------------- */
 main > h1 {
-  color: #19191a;
+  color: #ffffff;
 }
 @media only screen and (min-width: 1600px) {
   main > h1 {
@@ -187,19 +187,19 @@ xButtons
   color: #ffffff;
   padding: .6em 2.2em;
   cursor: pointer;
-  background: #5f8ee4;
+  background: #a9a27f;
 }
 .btn:focus {
   outline: none;
 }
 .no-touch .btn:hover {
-  background: #759de8;
+  background: #35341f;
 }
 .btn.btn-success {
-  background: #6fce72;
+  background: #9c8b6d;
 }
 .no-touch .btn.btn-success:hover {
-  background: #82d485;
+  background: #47407a;
 }
 .btn.btn-alert {
   background: #e4655f;
@@ -208,13 +208,13 @@ xButtons
   background: #e87a75;
 }
 .btn.btn-outline {
-  color: #5f8ee4;
+  color: #35341f;
   background: transparent;
-  box-shadow: inset 0 0 0 1px #5f8ee4;
+  box-shadow: inset 0 0 0 1px #35341f;
 }
 .no-touch .btn.btn-outline:hover {
   color: #ffffff;
-  background: #5f8ee4;
+  background: #35341f;
 }
 @media only screen and (min-width: 768px) {
   .btn {
@@ -257,11 +257,11 @@ input[type=text] {
   box-shadow: inset 1px 1px rgba(0, 0, 0, 0.03);
 }
 input[type=text].success {
-  border-color: #6fce72;
+  border-color: #747548;
   box-shadow: 0 0 6px rgba(111, 206, 114, 0.2);
 }
 input[type=text].alert {
-  border-color: #e4655f;
+  border-color: #665941;
   box-shadow: 0 0 6px rgba(228, 101, 95, 0.2);
 }
 input[type=text]:focus {
@@ -825,49 +825,49 @@ section:nth-of-type(6) h2::before {
   padding: .6em 0;
 }
 .cd-colors li:nth-of-type(1) .cd-color-swatch {
-  background: #5f8ee4;
+  background: #35341f;
 }
 .cd-colors li:nth-of-type(1) .cd-color-swatch::before {
-  background: #759de8;
+  background: #a89c6c;
 }
 .cd-colors li:nth-of-type(1) .cd-color-swatch::after {
-  background: #497fe0;
+  background:#1b1a10;
 }
 .cd-colors li:nth-of-type(2) .cd-color-swatch {
-  background: #19191a;
+  background: #89886d;
 }
 .cd-colors li:nth-of-type(2) .cd-color-swatch::before {
-  background: #262627;
+  background: #a9a27f;
 }
 .cd-colors li:nth-of-type(2) .cd-color-swatch::after {
-  background: #0d0d0d;
+  background: #747548;
 }
 .cd-colors li:nth-of-type(3) .cd-color-swatch {
-  background: #e4655f;
+  background: #9c8b6d;
 }
 .cd-colors li:nth-of-type(3) .cd-color-swatch::before {
-  background: #e87a75;
+  background: #665941;
 }
 .cd-colors li:nth-of-type(3) .cd-color-swatch::after {
-  background: #e05049;
+  background: #d1cfc8;
 }
 .cd-colors li:nth-of-type(4) .cd-color-swatch {
-  background: #e6e6e6;
+  background:#47407a;
 }
 .cd-colors li:nth-of-type(4) .cd-color-swatch::before {
-  background: #f3f3f3;
+  background: #a6a1cd;
 }
 .cd-colors li:nth-of-type(4) .cd-color-swatch::after {
-  background: #d9d9d9;
+  background: #413b70;
 }
 .cd-colors li:nth-of-type(5) .cd-color-swatch {
   background: #ffffff;
 }
 .cd-colors li:nth-of-type(5) .cd-color-swatch::before {
-  background: white;
+  background:#d1cec6;
 }
 .cd-colors li:nth-of-type(5) .cd-color-swatch::after {
-  background: #f2f2f2;
+  background:#d1cfc8;
 }
 @media only screen and (min-width: 768px) {
   .cd-colors li {
