@@ -14,12 +14,7 @@ body {
   
   -------------------------------- */
   .cd-box {
-	/* this is the container of various design elements - i.e. the 2 logo of the branding section */
-	border: 1px solid #e6e6e6;
-	border-radius: 3px;
-	background: #ffffff;
-	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-	padding: 6px;
+	
   }
   
   /* -------------------------------- 
@@ -28,7 +23,7 @@ body {
   
   -------------------------------- */
   header {
-	background-color: #19191a;
+	background-color:#35341f;
   }
   
   .cd-logo {
@@ -120,7 +115,7 @@ body {
   -------------------------------- */
   h1, h2 {
 	font-family: "Open Sans", sans-serif;
-	color: #19191a;
+	color: #35341f;
   }
   
   h1 {
