@@ -137,5 +137,21 @@ margin-top: -2070px;
 
 }
 @media only screen and (min-width: 1024px){
-	
+	.extra1 {
+		margin-top: -750px;
+	}
+	.design-selection {
+		margin-top: 550px;
+	}
+
+	.design-selection ul {
+		margin-left: 570px;
+	}
+	.select {
+		margin-left: 690px;
+	}
+
+	header {
+		width: 100%;
+	}
 }
