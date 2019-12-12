@@ -2,11 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 
-@media only screen and (min-width: 420px) {
+
 /* etc. SMall view*/
+
+
 body{
 	background-color:	#a5a671;
 	font-family: 'Open Sans', sans-serif;
+text-align: center;
 }
 h1, h2, h3{
 	font-family: 'Josefin Sans', sans-serif;
@@ -41,24 +44,7 @@ header {
 [role=navigation] ul li a{
 color: purple;
 }
-.design-selection ul {
-	background-color: #747548;
-	margin-left: 100px;
-	width: 500px;
-	padding-bottom: 15px;
-	margin-top: 15px;
-	position: absolute;
-	border-radius: 10px;
-	text-decoration: none;
-	list-style-type: none;
-	padding: 15px;
-}
-.design-selection li a {
-	display: inline block;
-	margin-right: 50px;
-	text-decoration: none;
-	color: black;
-}
+
 
 .design-name {
 	font-family: 'Josefin Sans', sans-serif;
@@ -75,23 +61,12 @@ li a:hover {
 	background-color: olive;
 }
 
-.select {
-color:black;
-padding-top: 7px;
-margin-top: -2070px;
-}
 
 
 /*css for extra1 or logo*/
 .extra1 {
   background-image: url(/zenGardenlogo_resized.jpg);
-  margin-left: 25px;
-  margin-top: -730px;
-  border-radius: 10px;
-  width: 100px;
-  height: 78px;
-  padding: 3px;
-  position: absolute;
+
 }
 
 .summary {
@@ -99,13 +74,13 @@ margin-top: -2070px;
 }
 
 .preamble {
-	margin-top: 600px;
+	margin-top: 550px;
 	
 }
 
 .design-archives {
-	margin-top: 255px;
-	margin-left: -350px;
+	margin-top: -267px;
+	margin-left: -380px;
 }
 
 .design-archives ul {
@@ -123,8 +98,8 @@ margin-top: -2070px;
 }
 
 .zen-resources {
-	margin-top: -97px;
-	margin-left: 350px;
+	margin-top: 25px;
+	margin-left: -380px;
 }
 .zen-resources ul {
 	list-style-type: none;
@@ -135,23 +110,80 @@ margin-top: -2070px;
 	background-color: olivedrab;
 }
 
+/* flexbox layout for design selection*/
+.design-selection ul {
+display: flex;
+flex-flow: row wrap;
+list-style-type: none;
+align-content: space-around;
+margin-top: -2000px;
 }
-@media only screen and (min-width: 1024px){
+.design-selection li {
+	padding: 10px;
+}
+.select {
+	float: left;
+	margin-top: 10px;
+	margin-left: 15px;
+	background-color: #a5a671;
+}
+
+.design-name, .designer-name {
+	padding: 5px;
+}
+
+@media only screen and (min-width: 800px){
 	.extra1 {
-		margin-top: -750px;
-	}
-	.design-selection {
-		margin-top: 550px;
+		margin-top: 50px;
 	}
 
-	.design-selection ul {
-		margin-left: 570px;
-	}
 	.select {
-		margin-left: 690px;
+		margin-left: 245px;
+		margin-top: 75px;
+		padding-bottom: 15px;
+	}
+	.design-selection ul {
+		margin-top: -1475px;
+		display: flex;
+		width: 50%;
+		margin-left: 400px;
+		}
+	.design-archives {
+		margin-top: 50px;
+margin-left: 3px;	}
+
+	.zen-resources {
+		justify-content: center;
+		margin-left: 3px;
 	}
 
 	header {
 		width: 100%;
+	}
+
+}
+
+@media only screen and (max-width: 700px) {
+	.extra1 {
+
+	}
+	header {
+		width: 90%;
+		margin-top: 80px;
+	}
+	.select {
+		margin-top: 50px;
+	}
+	.design-selection ul {
+		margin-top: -3150px;
+		margin-left: -50px;
+justify-content: center;
+	}
+	.design-archives {
+		margin-top: 50px;
+		margin-left: 5px;
+	}
+	.zen-resources {
+		margin-left: 5px;
 	}
 }
