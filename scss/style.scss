@@ -1,14 +1,20 @@
 /* Varibles */
 $main: #747548;
-
+$color-1: #a9a27f; // Light moss- Action color
+$color-2: #35341f; // Dark Grey -  Copy
+$color-3: #d1cec6; // Light Grey - Hover
+$color-4: #665941; // Dark Brown
+$color-5: #9c8b6d; // Taupe
+$color-6: #747548; // Dark Moss
+$color-7: hsl(55, 35%, 94%);//header
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 
 body{
-	background-color:	#a5a671;
 	font-family: 'Open Sans', sans-serif;
 }
 h1, h2, h3{
 	font-family: 'Josefin Sans', sans-serif;
+	color: $color-7;
 }
 h1{
 	text-decoration: underline;
