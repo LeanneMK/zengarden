@@ -1,0 +1,189 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+
+/* etc. SMall view*/
+
+
+body{
+	background-color:	#a5a671;
+	font-family: 'Open Sans', sans-serif;
+text-align: center;
+}
+h1, h2, h3{
+	font-family: 'Josefin Sans', sans-serif;
+}
+h1{
+	text-decoration: underline;
+}
+h3{
+	text-align: center;
+	background-color: #747548;
+	border-radius: 10px;
+	width: 300px;
+	margin: auto;
+}
+.sidebar{
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+
+header {
+	background-color: #747548;
+	text-align: center;
+	margin:auto;
+	border-radius: 10px;
+	width: 700px;
+	margin-top: 70px;
+	padding: 5px;
+}
+
+.participation
+[role=navigation] ul li a{
+color: purple;
+}
+
+
+.design-name {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 17px;
+}
+
+
+.design-name .designer-name a:link, a:visited, a:active {
+	color: black;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: olive;
+}
+
+
+
+/*css for extra1 or logo*/
+.extra1 {
+  background-image: url(/zenGardenlogo_resized.jpg);
+
+}
+
+.summary {
+	text-align: center;
+}
+
+.preamble {
+	margin-top: 550px;
+	
+}
+
+.design-archives {
+	margin-top: -267px;
+	margin-left: -380px;
+}
+
+.design-archives ul {
+	list-style-type: none;
+	margin-left: -45px;
+}
+
+.design-archives ul li a:active, a:link, a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.design-archives ul li a:hover {
+	background-color: olivedrab;
+}
+
+.zen-resources {
+	margin-top: 25px;
+	margin-left: -380px;
+}
+.zen-resources ul {
+	list-style-type: none;
+	margin-left: -45px;
+}
+
+.zen-resources ul li a:hover {
+	background-color: olivedrab;
+}
+
+/* flexbox layout for design selection*/
+.design-selection ul {
+display: flex;
+flex-flow: row wrap;
+list-style-type: none;
+align-content: space-around;
+margin-top: -2000px;
+}
+.design-selection li {
+	padding: 10px;
+}
+.select {
+	float: left;
+	margin-top: 10px;
+	margin-left: 15px;
+	background-color: #a5a671;
+}
+
+.design-name, .designer-name {
+	padding: 5px;
+}
+
+@media only screen and (min-width: 800px){
+	.extra1 {
+		margin-top: 50px;
+	}
+
+	.select {
+		margin-left: 245px;
+		margin-top: 75px;
+		padding-bottom: 15px;
+	}
+	.design-selection ul {
+		margin-top: -1475px;
+		display: flex;
+		width: 50%;
+		margin-left: 400px;
+		}
+	.design-archives {
+		margin-top: 50px;
+margin-left: 3px;	}
+
+	.zen-resources {
+		justify-content: center;
+		margin-left: 3px;
+	}
+
+	header {
+		width: 100%;
+	}
+
+}
+
+@media only screen and (max-width: 700px) {
+	.extra1 {
+
+	}
+	header {
+		width: 90%;
+		margin-top: 80px;
+	}
+	.select {
+		margin-top: 50px;
+	}
+	.design-selection ul {
+		margin-top: -3150px;
+		margin-left: -50px;
+justify-content: center;
+	}
+	.design-archives {
+		margin-top: 50px;
+		margin-left: 5px;
+	}
+	.zen-resources {
+		margin-left: 5px;
+	}
+}

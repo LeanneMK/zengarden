@@ -2,32 +2,34 @@
 @import 'partials/prefix-mixins';
 @import 'partials/layout'; // responsive grid and media queries
 
+
 // color palette - these colors will be the color swatches of the Colors section
 
-$color-1: #5f8ee4; // Cornflower Blue - Action color
-$color-2: #19191a; // Dark Blue
-$color-3: #e4655f; // Red
-$color-4: #e6e6e6; // light grey
-$color-5: #ffffff; // white
+$color-1: #a9a27f; // Light moss- Action color
+$color-2: #35341f; // Dark Grey -  Copy
+$color-3: #d1cec6; // Light Grey - Hover
+$color-4: #665941; // Dark Brown
+$color-5: #9c8b6d; // Taupe
+$color-6: #747548; // Dark Moss
 
 // additional colors
 
-$success: #6fce72; // green
+$success: #47407a; // Visited???
 $alert: $color-3; // red
 
 // fonts
-$primary-font: 'Merriweather', serif;
+$primary-font: 'Josefin Sans', sans-serif;
 $secondary-font: 'Open Sans', sans-serif;
 
-/* -------------------------------- 
+/* This is the background photo that we have chosen. Not sure where we will use it yet.
 
-xBackground 
+https://wallpaperplay.com/walls/full/f/9/5/253662.jpg#.XatPU-ctenk.link
 
 -------------------------------- */
 
 body {
   /* this is the page background */
-  background-color: $color-5;
+  background-color: $color-3;
 }
 
 /* -------------------------------- 
