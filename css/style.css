@@ -14,18 +14,19 @@ body{
 	background-position: center;
 	font-family: 'Open Sans', sans-serif;
 	color: #5f6263;
-	text-align: right;
-	padding: 20%;
+	text-align: justify;
+	padding: 0 5% 0 20% ;
 }
 h1, h2, h3{
 	font-family: 'Josefin Sans', sans-serif;
 }
 h1{
 	text-decoration: underline;
+	font-size: 200%;
 }
 h3{
 	text-align: right;
-	padding: 5%;
+	padding: 5% 0;
 }
 .sidebar{
 	height: 100%;
@@ -35,38 +36,49 @@ h3{
 	top: 0; /* Stay at the top */
 	left: 0;
 	background-color: #747548;
-	overflow-x: hidden; /* Disable horizontal scroll */
+	overflow: hidden; /* Disable scroll */
 	padding-top: 20px;
 }
 
 header {
 	text-align: right;
-
-	padding: 5%;
+	padding: 5% 0;
 }
-
+#zen-summary{
+	text-align: right;
+}
+a{
+	color: #1c1b17;
+}
+p[role="contentinfo"] {
+	text-align: center;
+}
 .participation
 [role=navigation] ul li a{
 color: purple;
 }
-.design-selection {
-	
+h3.select{
 	text-align: left;
-	width: 500px;
+	padding: 10px;
+	color: #1c1b17;
+}
+.design-selection {
+	text-align: center;
 	padding-bottom: 15px;
-	margin: auto;
-	border-radius: 10px;
-	text-decoration: none;
 }
 .design-selection li {
 	list-style-type: none;
 	display: inline block;
 	padding: 5px;
-	margin-right: 50px;
-	text-align: left;
-	text-decoration: none;
+	text-align: center;
+	color: #1c1b17;
 }
-
+.design-name{
+	color: #e8ebf0;
+}
+.designer-name{
+	color: #1c1b17;
+}
 .design-name a:active {
 	padding: 15px;
 	color: black;
@@ -79,6 +91,9 @@ color: purple;
 padding-top: 25px;
 }
 
+footer{
+	text-align: center;
+}
 @media only screen and (min-width: 1024px){
 	
 }
